@@ -1,0 +1,36 @@
+.content {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+  height: var(--header-bar-height);
+  right: 0;
+  left: 0px;
+  top: 0px;
+  padding: 0 6%;
+  color: #fff;
+  background-color: #7e33e0;
+
+  .contact {
+    display: flex;
+    .item{
+      a:nth-child(1){
+        margin-right: 48px;
+      }
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .action {
+    display: flex;
+    .item{
+      margin: 0 8px;
+    }
+  }
+}
+
+

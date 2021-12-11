@@ -1,0 +1,61 @@
+.navBar {
+  color: var(--text-color);
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 19px;
+  margin-bottom: 19px;
+  height: 40px;
+  a {
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  .left {
+    display: flex;
+    .textLogo {
+      font-family: "Josefin Sans", sans-serif;
+      font-weight: bold;
+      font-size: 3.4rem;
+      line-height: 4rem;
+      cursor: pointer;
+    }
+    ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      li {
+        a {
+          height: 40px;
+          line-height: 40px;
+          padding: 0 17px;
+          &:hover {
+            color: var(--primary-color);
+          }
+        }
+      }
+    }
+  }
+
+  .right {
+    display: flex;
+    text-align: center;
+    height: 40px;
+    input {
+      width: 270px;
+      border: 2px solid var(--border-color);
+      border-right: none;
+    }
+    span {
+      display: flex;
+      height: 100%;
+      width: 40px;
+      align-items: center;
+      justify-content: center;
+      color: var(--white-color);
+      background-color: var(--primary-color);
+      cursor: pointer;
+    }
+  }
+}
